@@ -1,0 +1,30 @@
+"""
+# interchange the value
+a = 1
+b = 3
+a, b = b, a
+#temp = a
+#b = temp
+print(a,b)
+"""
+
+"""
+a = 1
+b = 3
+temp = a
+b = temp
+print(a,b)
+"""
+
+#number = (1,2,5,3,4)
+#print(number.index())
+#print(number.count(5))
+
+s=(2,5,8)
+s_append = s + (8, 16, 67)
+print(s_append)
+print(s)
+
+s=(2,5,8)
+s_append_one = s + (4,)
+print(s_append_one)
